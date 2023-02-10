@@ -1,0 +1,307 @@
+/* nav bar */
+nav {
+  background-color: #f6f294 !important;
+  padding: 20px 20px 15px 25px;
+  height: auto !important;
+}
+
+nav h1 {
+  margin: 0;
+  color: #000000;
+  font-size: 32px;
+}
+
+nav .sidenav-trigger {
+  margin-left: 0 !important;
+  color: #000000;
+  height: auto !important;
+}
+
+nav i {
+  font-size: 40px !important;
+  height: 40px !important;
+  line-height: 40px !important;
+}
+
+main.with-nav {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+/* bottom nav */
+.bottom-nav {
+  height: 75px;
+  width: 100%;
+  background-color: #f6f294;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.bottom-nav div {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.bottom-nav div i {
+  font-size: 40px !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  color: #000000;
+}
+
+.bottom-nav div.middle-bottom div {
+  position: relative;
+  background-color: #000000;
+  border-radius: 100%;
+  top: -50px;
+  height: 75px;
+  width: 75px;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+.bottom-nav div.middle-bottom i {
+  font-size: 60px !important;
+  height: 60px !important;
+  line-height: 60px !important;
+  color: #efe600;
+}
+
+/* homepage */
+main#homepage {
+  background-color: #f8f5b0;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+main#homepage h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  margin: 50px auto 0;
+}
+
+main#homepage p {
+  text-align: center;
+  font-size: 18px;
+  margin: 0;
+}
+
+main#homepage img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+main#homepage .button {
+  display: block;
+  margin-top: 40px;
+  padding: 15px;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+  border-radius: 50px;
+}
+
+main#homepage .button#login-button {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+main#homepage .button#sign-up-button {
+  background-color: #cfd8dc;
+  color: #000000;
+}
+
+/* Reduces the size of the bottom margin on the location page */
+.selectSuburb {
+  margin-bottom: 0px !important;
+}
+
+/* Hides the suburb information before it is selected on the location page */
+#suburb-info {
+  display: none;
+}
+
+/* history card styles */
+.history-item .item-image {
+  max-height: 60%;
+}
+
+.history-item .item-image img {
+  width: 100%;
+}
+
+.history-item p {
+  margin: 0px;
+}
+
+.history-item .item-type {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.history-item .item-details .col {
+  padding-left: 0px;
+}
+
+.history-item .item-result-symbol.check {
+  color: green;
+}
+
+.history-item .item-result-symbol.close {
+  color: red;
+}
+
+.history-item .delete-btn,
+.history-item .delete-btn:hover {
+  line-height: 1;
+  padding: 5px;
+  height: auto;
+  background-color: #f66465;
+  box-shadow: none;
+}
+
+/* form styling */
+
+.form-style-5 {
+  max-width: 500px;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  margin: 60px auto;
+  padding: 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.form-style-5 fieldset {
+  border: none;
+}
+
+.form-style-5 legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.form-style-5 label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form-style-5 input[type="text"],
+.form-style-5 input[type="password"],
+.form-style-5 input[type="email"],
+
+/* input boxes */
+.form-style-5 select {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+}
+
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="password"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus {
+  background: #d2d9dd;
+}
+
+.form-style-5 .number {
+  background: #f6f294;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+  border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"] {
+  position: relative;
+  display: block;
+  padding: 19px 39px 18px 39px;
+  color: rgb(0, 0, 0);
+  margin: 0 auto;
+  background: #f6f294;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  width: 100%;
+  border: 1px solid #f6f294;
+  border-width: 1px 1px 3px;
+  margin-bottom: 10px;
+}
+
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover {
+  background: #f6f294;
+}
+
+.plant2 {
+  background-image: url("/images/plant2.jpg") !important;
+  background-size: 120%;
+  background-repeat: no-repeat;
+}
+
+.login {
+  background-color: #f8f5b0;
+}
+
+.register {
+  background-color: #f8f5b0;
+}
+
+/*CSS for chat window*/
+#chat {
+  position: fixed;
+  bottom: 100px;
+  width: 100%;
+  padding-left: 0;
+  padding-top: 10px;
+}
+
+#chat col {
+  padding-left: 0;
+  margin-top: 0px;
+}
+
+.no-left-padding {
+  padding-left: 0px !important;
+}
+
+#messages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#messages>li {
+  padding: 0.5rem 1rem;
+}
+
+#messages>li:nth-child(odd) {
+  background: #efefef;
+}
