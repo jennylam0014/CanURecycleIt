@@ -1,5 +1,11 @@
 # Can U Recycle It web app
 
+This webapp was developed for unit SIT725- Applied Software Engineering in a team. 
+
+Contributors: michaeljpigott, brodiemccann, MaiaC
+
+##
+
 This node.js app uses artificial intelligence to detect an item's material from an uploaded photo. It then provides advice on how to recycle that item.
 
 The app is currently restricted to local government areas in metropolitan Melbourne. However, it will be eventually expanded to encompass the whole of Australia
